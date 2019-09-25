@@ -2,6 +2,7 @@
 LocateMe is a hybrid mobile application. It supports both iOS and Android. It provides geographic location of an user per minute using GPS and stores the location with latitude, longitude and timestamp to a database using Firebase. The application shows the current location and marks location in map.
 
 //Developer instructions - Aravindhghosh
+
 To use the code add the following in your ionic project:
 
 npm install firebase @angular/fire
