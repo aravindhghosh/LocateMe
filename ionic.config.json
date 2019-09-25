@@ -1,0 +1,7 @@
+{
+  "name": "LocateMe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

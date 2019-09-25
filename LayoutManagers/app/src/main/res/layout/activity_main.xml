@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="Layout Manager"
+            android:textSize="25sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="200dp"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Name"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:ems="10"/>
+    </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<ion-nav #rootNav [root]="setRoot"></ion-nav>
+<ion-content>
+  <ion-slides pager="true">
+      <ion-slide class="step-one">
+          
+            <ion-img src="/assets/icon/icon.png"></ion-img>
+       
+          <h1 style="font-family:Comic Sans MS Header;font-size:300%;">Welcome to LocateMe</h1>
+          <p>Swipe to continue....</p>
+      </ion-slide>
+
+      <ion-slide class="step-two">
+          <ion-img src="/assets/slides/step2.jpg"></ion-img>
+          <h5>Track your location</h5>
+          <p>Track your location frequently in real time. Markers will auto marks your location when your co-ordinates changes.</p>
+      </ion-slide>
+
+      <ion-slide class="step-three">
+          <ion-img src="/assets/slides/video-tut.gif" width="30%" height="45%"></ion-img>
+          <h5>Interactive UI -  Switch between tabs for easy navigation. Stores the location on the cloud.</h5>
+          <p></p>
+
+         <ion-button (click)="finish()">Lets go!</ion-button>
+      </ion-slide>
+
+
+  </ion-slides>
+</ion-content>

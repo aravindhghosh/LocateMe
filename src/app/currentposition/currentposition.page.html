@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card align-items-center>
+    <ion-item>
+      <h4>Current Position of the Device</h4>
+    </ion-item>
+    <ion-card-content>
+      Latitude : {{clat}}<br>
+      Longitude: {{clong}}<br>
+    </ion-card-content>
+  </ion-card>
+  <ion-card align-items-center>
+      <ion-item>
+        <h4>LocateMe</h4>
+      </ion-item>
+      <ion-card-content>
+        <p style="align-content: center;">To track your location, switch the tab below to Track Location.</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card align-items-center>
+      <ion-item>
+        <h4>Instructions</h4>
+      </ion-item>
+      <ion-card-content>
+        <p style="align-content: center;">Turn ON mobile data and location(GPS) to allow access for the app. <br>
+                                          After installing the app for first time, GPS and firebase connectivity needs to be initialized, so it takes time to initialize(upto 20seconds).</p>
+      </ion-card-content>
+    </ion-card>
+
+</ion-content>
