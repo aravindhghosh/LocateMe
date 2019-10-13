@@ -1,5 +1,5 @@
 # LocateMe
-LocateMe is a hybrid mobile application. It supports both iOS and Android. It provides geographic location of an user per minute using GPS and stores the location with latitude, longitude and timestamp to a database using Firebase. The application shows the current location and marks location in map.
+LocateMe is a hybrid mobile application. It supports both iOS, Android and Web. It provides geographic location of an user per minute using GPS and stores the location with latitude, longitude and timestamp to a database using Firebase. The application shows the current location and marks location in map.
 
 //Developer instructions - Aravindhghosh
 
