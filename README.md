@@ -5,6 +5,10 @@ LocateMe is a hybrid mobile application. It supports both iOS, Android and Web. 
 
 To use the code add the following in your ionic project:
 
+Clone the project
+
+Place it in any location and extract it....
+
 npm install firebase @angular/fire
  
 npx cap add android
